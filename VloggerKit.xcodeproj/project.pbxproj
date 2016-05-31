@@ -19,6 +19,40 @@
 		23F723861CFD791100FE9BC5 /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7237E1CFD791100FE9BC5 /* Videos.swift */; };
 		23F723871CFD791100FE9BC5 /* VloggerKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7237F1CFD791100FE9BC5 /* VloggerKit.swift */; };
 		23F723891CFD796B00FE9BC5 /* RequestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F723881CFD796B00FE9BC5 /* RequestKit.framework */; };
+		23F723981CFD7D9300FE9BC5 /* VloggerKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7237F1CFD791100FE9BC5 /* VloggerKit.swift */; };
+		23F723991CFD7D9300FE9BC5 /* OAuthConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7237A1CFD791100FE9BC5 /* OAuthConfiguration.swift */; };
+		23F7239A1CFD7D9300FE9BC5 /* OAuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7237B1CFD791100FE9BC5 /* OAuthRouter.swift */; };
+		23F7239B1CFD7D9300FE9BC5 /* TokenConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7237D1CFD791100FE9BC5 /* TokenConfiguration.swift */; };
+		23F7239C1CFD7D9300FE9BC5 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7237C1CFD791100FE9BC5 /* Token.swift */; };
+		23F7239D1CFD7D9300FE9BC5 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F723781CFD791100FE9BC5 /* Categories.swift */; };
+		23F7239E1CFD7D9300FE9BC5 /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7237E1CFD791100FE9BC5 /* Videos.swift */; };
+		23F7239F1CFD7D9300FE9BC5 /* NSURL+URLParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F723791CFD791100FE9BC5 /* NSURL+URLParameters.swift */; };
+		23F723A11CFD7DA500FE9BC5 /* RequestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F723A01CFD7DA500FE9BC5 /* RequestKit.framework */; };
+		23F723B11CFD7DB900FE9BC5 /* VloggerKit tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F723A71CFD7DB900FE9BC5 /* VloggerKit tvOS.framework */; };
+		23F723BE1CFD7DBF00FE9BC5 /* VloggerKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7237F1CFD791100FE9BC5 /* VloggerKit.swift */; };
+		23F723BF1CFD7DBF00FE9BC5 /* OAuthConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7237A1CFD791100FE9BC5 /* OAuthConfiguration.swift */; };
+		23F723C01CFD7DBF00FE9BC5 /* OAuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7237B1CFD791100FE9BC5 /* OAuthRouter.swift */; };
+		23F723C11CFD7DBF00FE9BC5 /* TokenConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7237D1CFD791100FE9BC5 /* TokenConfiguration.swift */; };
+		23F723C21CFD7DBF00FE9BC5 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7237C1CFD791100FE9BC5 /* Token.swift */; };
+		23F723C31CFD7DBF00FE9BC5 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F723781CFD791100FE9BC5 /* Categories.swift */; };
+		23F723C41CFD7DBF00FE9BC5 /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7237E1CFD791100FE9BC5 /* Videos.swift */; };
+		23F723C51CFD7DBF00FE9BC5 /* NSURL+URLParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F723791CFD791100FE9BC5 /* NSURL+URLParameters.swift */; };
+		23F723C71CFD7DCA00FE9BC5 /* RequestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F723C61CFD7DCA00FE9BC5 /* RequestKit.framework */; };
+		23F723C81CFD7DD700FE9BC5 /* VloggerKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7236D1CFD78F000FE9BC5 /* VloggerKitTests.swift */; };
+		23F723CE1CFD7E4B00FE9BC5 /* RequestKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23F723C61CFD7DCA00FE9BC5 /* RequestKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23F723CF1CFD7E5500FE9BC5 /* RequestKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23F723881CFD796B00FE9BC5 /* RequestKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23F723DF1CFD7EB200FE9BC5 /* VloggerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F723D51CFD7EB200FE9BC5 /* VloggerKit.framework */; };
+		23F723ED1CFD7EE600FE9BC5 /* RequestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F723EC1CFD7EE600FE9BC5 /* RequestKit.framework */; };
+		23F723EE1CFD7EED00FE9BC5 /* VloggerKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7237F1CFD791100FE9BC5 /* VloggerKit.swift */; };
+		23F723EF1CFD7EED00FE9BC5 /* OAuthConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7237A1CFD791100FE9BC5 /* OAuthConfiguration.swift */; };
+		23F723F01CFD7EED00FE9BC5 /* OAuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7237B1CFD791100FE9BC5 /* OAuthRouter.swift */; };
+		23F723F11CFD7EED00FE9BC5 /* TokenConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7237D1CFD791100FE9BC5 /* TokenConfiguration.swift */; };
+		23F723F21CFD7EED00FE9BC5 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7237C1CFD791100FE9BC5 /* Token.swift */; };
+		23F723F31CFD7EED00FE9BC5 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F723781CFD791100FE9BC5 /* Categories.swift */; };
+		23F723F41CFD7EED00FE9BC5 /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7237E1CFD791100FE9BC5 /* Videos.swift */; };
+		23F723F51CFD7EED00FE9BC5 /* NSURL+URLParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F723791CFD791100FE9BC5 /* NSURL+URLParameters.swift */; };
+		23F723F61CFD7EF300FE9BC5 /* VloggerKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7236D1CFD78F000FE9BC5 /* VloggerKitTests.swift */; };
+		23F723F81CFD7F0500FE9BC5 /* RequestKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23F723EC1CFD7EE600FE9BC5 /* RequestKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +63,57 @@
 			remoteGlobalIDString = 23F7235D1CFD78F000FE9BC5;
 			remoteInfo = VloggerKit;
 		};
+		23F723B21CFD7DB900FE9BC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23F723551CFD78F000FE9BC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23F723A61CFD7DB900FE9BC5;
+			remoteInfo = "VloggerKit tvOS";
+		};
+		23F723E01CFD7EB200FE9BC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23F723551CFD78F000FE9BC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23F723D41CFD7EB200FE9BC5;
+			remoteInfo = "VloggerKit Mac";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		23F723C91CFD7E0E00FE9BC5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				23F723CE1CFD7E4B00FE9BC5 /* RequestKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F723CB1CFD7E2900FE9BC5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				23F723CF1CFD7E5500FE9BC5 /* RequestKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F723F71CFD7EFA00FE9BC5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				23F723F81CFD7F0500FE9BC5 /* RequestKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		23F7235E1CFD78F000FE9BC5 /* VloggerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VloggerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +131,14 @@
 		23F7237E1CFD791100FE9BC5 /* Videos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Videos.swift; sourceTree = "<group>"; };
 		23F7237F1CFD791100FE9BC5 /* VloggerKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VloggerKit.swift; sourceTree = "<group>"; };
 		23F723881CFD796B00FE9BC5 /* RequestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RequestKit.framework; path = ../Carthage/Build/iOS/RequestKit.framework; sourceTree = "<group>"; };
+		23F723901CFD7D8800FE9BC5 /* VloggerKit watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "VloggerKit watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F723A01CFD7DA500FE9BC5 /* RequestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RequestKit.framework; path = Carthage/Build/watchOS/RequestKit.framework; sourceTree = SOURCE_ROOT; };
+		23F723A71CFD7DB900FE9BC5 /* VloggerKit tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "VloggerKit tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F723B01CFD7DB900FE9BC5 /* VloggerKit tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VloggerKit tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F723C61CFD7DCA00FE9BC5 /* RequestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RequestKit.framework; path = Carthage/Build/tvOS/RequestKit.framework; sourceTree = SOURCE_ROOT; };
+		23F723D51CFD7EB200FE9BC5 /* VloggerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VloggerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F723DE1CFD7EB200FE9BC5 /* VloggerKit MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VloggerKit MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F723EC1CFD7EE600FE9BC5 /* RequestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RequestKit.framework; path = Carthage/Build/Mac/RequestKit.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +155,46 @@
 			buildActionMask = 2147483647;
 			files = (
 				23F723691CFD78F000FE9BC5 /* VloggerKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F7238C1CFD7D8800FE9BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F723A11CFD7DA500FE9BC5 /* RequestKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F723A31CFD7DB900FE9BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F723C71CFD7DCA00FE9BC5 /* RequestKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F723AD1CFD7DB900FE9BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F723B11CFD7DB900FE9BC5 /* VloggerKit tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F723D11CFD7EB200FE9BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F723ED1CFD7EE600FE9BC5 /* RequestKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F723DB1CFD7EB200FE9BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F723DF1CFD7EB200FE9BC5 /* VloggerKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +216,11 @@
 			children = (
 				23F7235E1CFD78F000FE9BC5 /* VloggerKit.framework */,
 				23F723681CFD78F000FE9BC5 /* VloggerKitTests.xctest */,
+				23F723901CFD7D8800FE9BC5 /* VloggerKit watchOS.framework */,
+				23F723A71CFD7DB900FE9BC5 /* VloggerKit tvOS.framework */,
+				23F723B01CFD7DB900FE9BC5 /* VloggerKit tvOSTests.xctest */,
+				23F723D51CFD7EB200FE9BC5 /* VloggerKit.framework */,
+				23F723DE1CFD7EB200FE9BC5 /* VloggerKit MacTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,6 +254,9 @@
 		23F7238A1CFD7A2D00FE9BC5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				23F723EC1CFD7EE600FE9BC5 /* RequestKit.framework */,
+				23F723C61CFD7DCA00FE9BC5 /* RequestKit.framework */,
+				23F723A01CFD7DA500FE9BC5 /* RequestKit.framework */,
 				23F723881CFD796B00FE9BC5 /* RequestKit.framework */,
 			);
 			name = Frameworks;
@@ -131,6 +271,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				23F723621CFD78F000FE9BC5 /* VloggerKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F7238D1CFD7D8800FE9BC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F723A41CFD7DB900FE9BC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F723D21CFD7EB200FE9BC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +323,7 @@
 				23F723641CFD78F000FE9BC5 /* Sources */,
 				23F723651CFD78F000FE9BC5 /* Frameworks */,
 				23F723661CFD78F000FE9BC5 /* Resources */,
+				23F723CB1CFD7E2900FE9BC5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -171,6 +333,98 @@
 			name = VloggerKitTests;
 			productName = VloggerKitTests;
 			productReference = 23F723681CFD78F000FE9BC5 /* VloggerKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23F7238F1CFD7D8800FE9BC5 /* VloggerKit watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F723951CFD7D8800FE9BC5 /* Build configuration list for PBXNativeTarget "VloggerKit watchOS" */;
+			buildPhases = (
+				23F7238B1CFD7D8800FE9BC5 /* Sources */,
+				23F7238C1CFD7D8800FE9BC5 /* Frameworks */,
+				23F7238D1CFD7D8800FE9BC5 /* Headers */,
+				23F7238E1CFD7D8800FE9BC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VloggerKit watchOS";
+			productName = "VloggerKit watchOS";
+			productReference = 23F723901CFD7D8800FE9BC5 /* VloggerKit watchOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		23F723A61CFD7DB900FE9BC5 /* VloggerKit tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F723B81CFD7DB900FE9BC5 /* Build configuration list for PBXNativeTarget "VloggerKit tvOS" */;
+			buildPhases = (
+				23F723A21CFD7DB900FE9BC5 /* Sources */,
+				23F723A31CFD7DB900FE9BC5 /* Frameworks */,
+				23F723A41CFD7DB900FE9BC5 /* Headers */,
+				23F723A51CFD7DB900FE9BC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VloggerKit tvOS";
+			productName = "VloggerKit tvOS";
+			productReference = 23F723A71CFD7DB900FE9BC5 /* VloggerKit tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		23F723AF1CFD7DB900FE9BC5 /* VloggerKit tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F723BB1CFD7DB900FE9BC5 /* Build configuration list for PBXNativeTarget "VloggerKit tvOSTests" */;
+			buildPhases = (
+				23F723AC1CFD7DB900FE9BC5 /* Sources */,
+				23F723AD1CFD7DB900FE9BC5 /* Frameworks */,
+				23F723AE1CFD7DB900FE9BC5 /* Resources */,
+				23F723C91CFD7E0E00FE9BC5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23F723B31CFD7DB900FE9BC5 /* PBXTargetDependency */,
+			);
+			name = "VloggerKit tvOSTests";
+			productName = "VloggerKit tvOSTests";
+			productReference = 23F723B01CFD7DB900FE9BC5 /* VloggerKit tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23F723D41CFD7EB200FE9BC5 /* VloggerKit Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F723E61CFD7EB200FE9BC5 /* Build configuration list for PBXNativeTarget "VloggerKit Mac" */;
+			buildPhases = (
+				23F723D01CFD7EB200FE9BC5 /* Sources */,
+				23F723D11CFD7EB200FE9BC5 /* Frameworks */,
+				23F723D21CFD7EB200FE9BC5 /* Headers */,
+				23F723D31CFD7EB200FE9BC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VloggerKit Mac";
+			productName = "VloggerKit Mac";
+			productReference = 23F723D51CFD7EB200FE9BC5 /* VloggerKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		23F723DD1CFD7EB200FE9BC5 /* VloggerKit MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F723E91CFD7EB200FE9BC5 /* Build configuration list for PBXNativeTarget "VloggerKit MacTests" */;
+			buildPhases = (
+				23F723DA1CFD7EB200FE9BC5 /* Sources */,
+				23F723DB1CFD7EB200FE9BC5 /* Frameworks */,
+				23F723DC1CFD7EB200FE9BC5 /* Resources */,
+				23F723F71CFD7EFA00FE9BC5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23F723E11CFD7EB200FE9BC5 /* PBXTargetDependency */,
+			);
+			name = "VloggerKit MacTests";
+			productName = "VloggerKit MacTests";
+			productReference = 23F723DE1CFD7EB200FE9BC5 /* VloggerKit MacTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -189,6 +443,21 @@
 					23F723671CFD78F000FE9BC5 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					23F7238F1CFD7D8800FE9BC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					23F723A61CFD7DB900FE9BC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					23F723AF1CFD7DB900FE9BC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					23F723D41CFD7EB200FE9BC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					23F723DD1CFD7EB200FE9BC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 23F723581CFD78F000FE9BC5 /* Build configuration list for PBXProject "VloggerKit" */;
@@ -205,6 +474,11 @@
 			targets = (
 				23F7235D1CFD78F000FE9BC5 /* VloggerKit */,
 				23F723671CFD78F000FE9BC5 /* VloggerKitTests */,
+				23F7238F1CFD7D8800FE9BC5 /* VloggerKit watchOS */,
+				23F723A61CFD7DB900FE9BC5 /* VloggerKit tvOS */,
+				23F723AF1CFD7DB900FE9BC5 /* VloggerKit tvOSTests */,
+				23F723D41CFD7EB200FE9BC5 /* VloggerKit Mac */,
+				23F723DD1CFD7EB200FE9BC5 /* VloggerKit MacTests */,
 			);
 		};
 /* End PBXProject section */
@@ -218,6 +492,41 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		23F723661CFD78F000FE9BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F7238E1CFD7D8800FE9BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F723A51CFD7DB900FE9BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F723AE1CFD7DB900FE9BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F723D31CFD7EB200FE9BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F723DC1CFD7EB200FE9BC5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -250,6 +559,67 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		23F7238B1CFD7D8800FE9BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F723981CFD7D9300FE9BC5 /* VloggerKit.swift in Sources */,
+				23F723991CFD7D9300FE9BC5 /* OAuthConfiguration.swift in Sources */,
+				23F7239A1CFD7D9300FE9BC5 /* OAuthRouter.swift in Sources */,
+				23F7239B1CFD7D9300FE9BC5 /* TokenConfiguration.swift in Sources */,
+				23F7239C1CFD7D9300FE9BC5 /* Token.swift in Sources */,
+				23F7239D1CFD7D9300FE9BC5 /* Categories.swift in Sources */,
+				23F7239E1CFD7D9300FE9BC5 /* Videos.swift in Sources */,
+				23F7239F1CFD7D9300FE9BC5 /* NSURL+URLParameters.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F723A21CFD7DB900FE9BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F723BE1CFD7DBF00FE9BC5 /* VloggerKit.swift in Sources */,
+				23F723BF1CFD7DBF00FE9BC5 /* OAuthConfiguration.swift in Sources */,
+				23F723C01CFD7DBF00FE9BC5 /* OAuthRouter.swift in Sources */,
+				23F723C11CFD7DBF00FE9BC5 /* TokenConfiguration.swift in Sources */,
+				23F723C21CFD7DBF00FE9BC5 /* Token.swift in Sources */,
+				23F723C31CFD7DBF00FE9BC5 /* Categories.swift in Sources */,
+				23F723C41CFD7DBF00FE9BC5 /* Videos.swift in Sources */,
+				23F723C51CFD7DBF00FE9BC5 /* NSURL+URLParameters.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F723AC1CFD7DB900FE9BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F723C81CFD7DD700FE9BC5 /* VloggerKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F723D01CFD7EB200FE9BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F723EE1CFD7EED00FE9BC5 /* VloggerKit.swift in Sources */,
+				23F723EF1CFD7EED00FE9BC5 /* OAuthConfiguration.swift in Sources */,
+				23F723F01CFD7EED00FE9BC5 /* OAuthRouter.swift in Sources */,
+				23F723F11CFD7EED00FE9BC5 /* TokenConfiguration.swift in Sources */,
+				23F723F21CFD7EED00FE9BC5 /* Token.swift in Sources */,
+				23F723F31CFD7EED00FE9BC5 /* Categories.swift in Sources */,
+				23F723F41CFD7EED00FE9BC5 /* Videos.swift in Sources */,
+				23F723F51CFD7EED00FE9BC5 /* NSURL+URLParameters.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F723DA1CFD7EB200FE9BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F723F61CFD7EF300FE9BC5 /* VloggerKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -257,6 +627,16 @@
 			isa = PBXTargetDependency;
 			target = 23F7235D1CFD78F000FE9BC5 /* VloggerKit */;
 			targetProxy = 23F7236A1CFD78F000FE9BC5 /* PBXContainerItemProxy */;
+		};
+		23F723B31CFD7DB900FE9BC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23F723A61CFD7DB900FE9BC5 /* VloggerKit tvOS */;
+			targetProxy = 23F723B21CFD7DB900FE9BC5 /* PBXContainerItemProxy */;
+		};
+		23F723E11CFD7EB200FE9BC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23F723D41CFD7EB200FE9BC5 /* VloggerKit Mac */;
+			targetProxy = 23F723E01CFD7EB200FE9BC5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -299,9 +679,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = VloggerKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nerdishbynature.VloggerKit;
+				PRODUCT_MODULE_NAME = VloggerKit;
+				PRODUCT_NAME = VloggerKit;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -342,8 +726,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = VloggerKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nerdishbynature.VloggerKit;
+				PRODUCT_MODULE_NAME = VloggerKit;
+				PRODUCT_NAME = VloggerKit;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -364,10 +752,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = VloggerKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nerdishbynature.VloggerKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -386,10 +772,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = VloggerKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nerdishbynature.VloggerKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -401,6 +785,7 @@
 				INFOPLIST_FILE = VloggerKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nerdishbynature.VloggerKitTests;
+				PRODUCT_MODULE_NAME = VloggerKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -411,7 +796,190 @@
 				INFOPLIST_FILE = VloggerKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nerdishbynature.VloggerKitTests;
+				PRODUCT_MODULE_NAME = VloggerKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		23F723961CFD7D8800FE9BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		23F723971CFD7D8800FE9BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		23F723B91CFD7DB900FE9BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		23F723BA1CFD7DB900FE9BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		23F723BC1CFD7DB900FE9BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "VloggerKit tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nerdishbynature.VloggerKit-tvOSTests";
+				PRODUCT_MODULE_NAME = VloggerKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		23F723BD1CFD7DB900FE9BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "VloggerKit tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nerdishbynature.VloggerKit-tvOSTests";
+				PRODUCT_MODULE_NAME = VloggerKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		23F723E71CFD7EB200FE9BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		23F723E81CFD7EB200FE9BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		23F723EA1CFD7EB200FE9BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nerdishbynature.VloggerKit-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		23F723EB1CFD7EB200FE9BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nerdishbynature.VloggerKit-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -440,6 +1008,46 @@
 			buildConfigurations = (
 				23F723761CFD78F000FE9BC5 /* Debug */,
 				23F723771CFD78F000FE9BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23F723951CFD7D8800FE9BC5 /* Build configuration list for PBXNativeTarget "VloggerKit watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F723961CFD7D8800FE9BC5 /* Debug */,
+				23F723971CFD7D8800FE9BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23F723B81CFD7DB900FE9BC5 /* Build configuration list for PBXNativeTarget "VloggerKit tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F723B91CFD7DB900FE9BC5 /* Debug */,
+				23F723BA1CFD7DB900FE9BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23F723BB1CFD7DB900FE9BC5 /* Build configuration list for PBXNativeTarget "VloggerKit tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F723BC1CFD7DB900FE9BC5 /* Debug */,
+				23F723BD1CFD7DB900FE9BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23F723E61CFD7EB200FE9BC5 /* Build configuration list for PBXNativeTarget "VloggerKit Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F723E71CFD7EB200FE9BC5 /* Debug */,
+				23F723E81CFD7EB200FE9BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23F723E91CFD7EB200FE9BC5 /* Build configuration list for PBXNativeTarget "VloggerKit MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F723EA1CFD7EB200FE9BC5 /* Debug */,
+				23F723EB1CFD7EB200FE9BC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
