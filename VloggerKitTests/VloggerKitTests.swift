@@ -1,5 +1,5 @@
 import XCTest
-@testable import VloggerKit
+import VloggerKit
 
 class VloggerKitTests: XCTestCase {
 }
