@@ -84,7 +84,7 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 7;
+			dstSubfolderSpec = 10;
 			files = (
 				23F723CE1CFD7E4B00FE9BC5 /* RequestKit.framework in Embed Frameworks */,
 			);
@@ -888,7 +888,6 @@
 		23F723BC1CFD7DB900FE9BC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "VloggerKit tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nerdishbynature.VloggerKit-tvOSTests";
 				PRODUCT_MODULE_NAME = VloggerKitTests;
@@ -901,7 +900,6 @@
 		23F723BD1CFD7DB900FE9BC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "VloggerKit tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nerdishbynature.VloggerKit-tvOSTests";
 				PRODUCT_MODULE_NAME = VloggerKitTests;

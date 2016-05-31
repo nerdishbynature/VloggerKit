@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "23F723A61CFD7DB900FE9BC5"
-               BuildableName = "VloggerKit tvOS.framework"
+               BuildableName = "VloggerKit.framework"
                BlueprintName = "VloggerKit tvOS"
                ReferencedContainer = "container:VloggerKit.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "23F723A61CFD7DB900FE9BC5"
-            BuildableName = "VloggerKit tvOS.framework"
+            BuildableName = "VloggerKit.framework"
             BlueprintName = "VloggerKit tvOS"
             ReferencedContainer = "container:VloggerKit.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "23F723A61CFD7DB900FE9BC5"
-            BuildableName = "VloggerKit tvOS.framework"
+            BuildableName = "VloggerKit.framework"
             BlueprintName = "VloggerKit tvOS"
             ReferencedContainer = "container:VloggerKit.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "23F723A61CFD7DB900FE9BC5"
-            BuildableName = "VloggerKit tvOS.framework"
+            BuildableName = "VloggerKit.framework"
             BlueprintName = "VloggerKit tvOS"
             ReferencedContainer = "container:VloggerKit.xcodeproj">
          </BuildableReference>
