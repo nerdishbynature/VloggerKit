@@ -2,7 +2,8 @@ SHA=$(shell git rev-parse HEAD)
 BRANCH=$(shell git name-rev --name-only HEAD)
 
 install:
-
+	brew install carthage
+	carthage bootstrap
 
 test:
 	bundle exec fastlane code_coverage configuration:Debug --env default
