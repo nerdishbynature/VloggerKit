@@ -14,7 +14,7 @@ public struct VloggerKit {
 }
 
 internal extension Router {
-    internal var URLRequest: NSURLRequest? {
+    internal var URLRequest: URLRequest? {
         return request()
     }
 }

@@ -1,60 +1,62 @@
 import RequestKit
 
 public enum OAuthRouter: Router {
-    case Authorize(OAuthConfiguration)
-    case AccessToken(OAuthConfiguration, String)
+    case authorize(OAuthConfiguration)
+    case accessToken(OAuthConfiguration, String)
 
     public var configuration: Configuration {
         switch self {
-        case .Authorize(let config): return config
-        case .AccessToken(let config, _): return config
+        case .authorize(let config): return config
+        case .accessToken(let config, _): return config
         }
     }
 
     public var method: HTTPMethod {
         switch self {
-        case .Authorize:
+        case .authorize:
             return .GET
-        case .AccessToken:
+        case .accessToken:
             return .POST
         }
     }
 
     public var encoding: HTTPEncoding {
         switch self {
-        case .Authorize:
-            return .URL
-        case .AccessToken:
-            return .FORM
+        case .authorize:
+            return .url
+        case .accessToken:
+            return .form
         }
     }
 
     public var path: String {
         switch self {
-        case .Authorize:
+        case .authorize:
             return "auth"
-        case .AccessToken:
+        case .accessToken:
             return "token"
         }
     }
 
-    public var params: [String: String] {
+    public var params: [String: Any] {
         switch self {
-        case .Authorize(let config):
+        case .authorize(let config):
             return ["client_id": config.clientID, "redirect_uri": config.redirectURI, "response_type": "code", "scope": config.scope]
-        case .AccessToken(let config, let code):
+        case .accessToken(let config, let code):
             return ["code": code, "grant_type": "authorization_code", "client_id": config.clientID, "redirect_uri": config.redirectURI]
         }
     }
 
-    public var URLRequest: NSURLRequest? {
+    public var URLRequest: Foundation.URLRequest? {
         switch self {
-        case .Authorize(let config):
-            let URLString = config.apiEndpoint.stringByAppendingURLPath(path)
-            return request(URLString, parameters: params)
-        case .AccessToken(let config, _):
-            let URLString = config.apiEndpoint.stringByAppendingURLPath(path)
-            return request(URLString, parameters: params)
+        case .authorize(let config):
+            let url = URL(string: path, relativeTo: URL(string: config.apiEndpoint)!)
+            let components = URLComponents(url: url!, resolvingAgainstBaseURL: true)
+            return request(components!, parameters: params)
+        case .accessToken(let config, _):
+            let url = URL(string: path, relativeTo: URL(string: config.apiEndpoint)!)
+            let components = URLComponents(url: url!, resolvingAgainstBaseURL: true)
+            return request(components!, parameters: params)
         }
     }
 }
