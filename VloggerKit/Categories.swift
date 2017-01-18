@@ -1,10 +1,10 @@
 import RequestKit
 
-@objc public class YouTubeCategory: NSObject {
-    public let id: String
-    public var etag: String?
-    public var kind: String?
-    public var snippet: CategorySnippet?
+@objc open class YouTubeCategory: NSObject {
+    open let id: String
+    open var etag: String?
+    open var kind: String?
+    open var snippet: CategorySnippet?
 
     public init(_ json: [String: AnyObject]) {
         if let id = json["id"] as? String {
@@ -20,10 +20,10 @@ import RequestKit
     }
 }
 
-@objc public class CategorySnippet: NSObject {
-    public let channelID: String?
-    public let title: String?
-    public let assignable: Bool?
+@objc open class CategorySnippet: NSObject {
+    open let channelID: String?
+    open let title: String?
+    open let assignable: Bool?
 
     public init(_ json: [String: AnyObject]) {
         self.channelID = json["channelId"] as? String
@@ -33,15 +33,15 @@ import RequestKit
 }
 
 public extension VloggerKit {
-    public func categories(session: RequestKitURLSession = NSURLSession.sharedSession(), regionCode: String = "us", completion: (response: Response<[YouTubeCategory]>) -> Void) {
-        let router = CategoriesRouter.GetCategories(configuration, regionCode)
-        router.loadJSON(session, expectedResultType: [String: AnyObject].self) { json, error in
+    public func categories(_ session: RequestKitURLSession = URLSession.shared, regionCode: String = "us", completion: @escaping (_ response: Response<[YouTubeCategory]>) -> Void) -> URLSessionDataTaskProtocol? {
+        let router = CategoriesRouter.getCategories(configuration, regionCode)
+        return router.loadJSON(session, expectedResultType: [String: AnyObject].self) { json, error in
             if let error = error {
-                completion(response: Response.Failure(error))
+                completion(Response.failure(error))
             } else {
-                if let json = json, items = json["items"] as? [[String: AnyObject]] {
+                if let json = json, let items = json["items"] as? [[String: AnyObject]] {
                     let categories = items.map({ YouTubeCategory($0) })
-                    completion(response: Response.Success(categories))
+                    completion(Response.success(categories))
                 }
             }
         }
@@ -49,39 +49,39 @@ public extension VloggerKit {
 }
 
 public enum CategoriesRouter: Router {
-    case GetCategories(TokenConfiguration, String)
+    case getCategories(TokenConfiguration, String)
 
     public var configuration: Configuration {
         switch self {
-        case .GetCategories(let configuration, _):
+        case .getCategories(let configuration, _):
             return configuration
         }
     }
 
     public var method: HTTPMethod {
         switch self {
-        case .GetCategories:
+        case .getCategories:
             return .GET
         }
     }
 
     public var encoding: HTTPEncoding {
         switch self {
-        case .GetCategories:
-            return .URL
+        case .getCategories:
+            return .url
         }
     }
 
     public var path: String {
         switch self {
-        case .GetCategories:
+        case .getCategories:
             return "/youtube/v3/videoCategories"
         }
     }
 
-    public var params: [String: String] {
+    public var params: [String: Any] {
         switch self {
-        case .GetCategories(_, let regionCode):
+        case .getCategories(_, let regionCode):
             return ["part": "snippet", "regionCode": regionCode]
         }
     }
