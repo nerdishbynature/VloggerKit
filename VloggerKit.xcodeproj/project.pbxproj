@@ -131,7 +131,7 @@
 		23F7237E1CFD791100FE9BC5 /* Videos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Videos.swift; sourceTree = "<group>"; };
 		23F7237F1CFD791100FE9BC5 /* VloggerKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VloggerKit.swift; sourceTree = "<group>"; };
 		23F723881CFD796B00FE9BC5 /* RequestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RequestKit.framework; path = ../Carthage/Build/iOS/RequestKit.framework; sourceTree = "<group>"; };
-		23F723901CFD7D8800FE9BC5 /* VloggerKit watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "VloggerKit watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F723901CFD7D8800FE9BC5 /* VloggerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VloggerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23F723A01CFD7DA500FE9BC5 /* RequestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RequestKit.framework; path = Carthage/Build/watchOS/RequestKit.framework; sourceTree = SOURCE_ROOT; };
 		23F723A71CFD7DB900FE9BC5 /* VloggerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VloggerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23F723B01CFD7DB900FE9BC5 /* VloggerKit tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VloggerKit tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -216,7 +216,7 @@
 			children = (
 				23F7235E1CFD78F000FE9BC5 /* VloggerKit.framework */,
 				23F723681CFD78F000FE9BC5 /* VloggerKitTests.xctest */,
-				23F723901CFD7D8800FE9BC5 /* VloggerKit watchOS.framework */,
+				23F723901CFD7D8800FE9BC5 /* VloggerKit.framework */,
 				23F723A71CFD7DB900FE9BC5 /* VloggerKit.framework */,
 				23F723B01CFD7DB900FE9BC5 /* VloggerKit tvOSTests.xctest */,
 				23F723D51CFD7EB200FE9BC5 /* VloggerKit.framework */,
@@ -350,7 +350,7 @@
 			);
 			name = "VloggerKit watchOS";
 			productName = "VloggerKit watchOS";
-			productReference = 23F723901CFD7D8800FE9BC5 /* VloggerKit watchOS.framework */;
+			productReference = 23F723901CFD7D8800FE9BC5 /* VloggerKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		23F723A61CFD7DB900FE9BC5 /* VloggerKit tvOS */ = {
@@ -829,7 +829,6 @@
 				);
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -852,7 +851,6 @@
 				);
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
